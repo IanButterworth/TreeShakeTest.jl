@@ -1,0 +1,3 @@
+using TreeShakeTest
+
+TreeShakeTest.foo()

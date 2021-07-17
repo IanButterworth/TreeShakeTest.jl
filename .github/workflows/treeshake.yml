@@ -1,0 +1,15 @@
+name: Check for unused dependencies
+
+on: [push]
+
+jobs:
+  treeshake:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: julia-actions/setup-julia@v1
+        with:
+          version: 1
+      - uses: julia-actions/julia-buildpkg@master
+      - uses: IanButterworth/julia-treeshake@main

@@ -1,0 +1,8 @@
+name = "TreeShakeTest"
+uuid = "0996e53f-1225-42ce-9220-8172c9789517"
+authors = ["Ian <i.r.butterworth@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
