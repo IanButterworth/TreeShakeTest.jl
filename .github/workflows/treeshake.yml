@@ -12,4 +12,4 @@ jobs:
         with:
           version: 1
       - uses: julia-actions/julia-buildpkg@master
-      - uses: IanButterworth/julia-treeshake@main
+      - uses: julia-actions/julia-treeshake@ib/coverage_user

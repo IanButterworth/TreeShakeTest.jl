@@ -1,6 +1,7 @@
 module TreeShakeTest
 
 using FileIO
+using CSV # unused, should be detected
 
 function foo()
     f, io = mktemp()
